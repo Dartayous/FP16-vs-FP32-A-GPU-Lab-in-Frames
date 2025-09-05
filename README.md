@@ -4,6 +4,12 @@ A cinematic GPU lab exploring FP32 vs FP16 training, Tensor Core acceleration, a
 
 ---
 
+<p align="center">
+  <img src="profiling_screenshots/FP16_Banner.png" alt="FP16 vs Fp32" width="100%">
+</p>
+
+---
+
 ## 🚀 Quickstart
 ```bash
 bash setup.sh
