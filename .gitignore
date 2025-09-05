@@ -1,0 +1,41 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment files
+.env
+*.env
+*.venv/
+*.conda/
+*.egg-info/
+
+# Data and cache
+data/
+*.pt
+*.pth
+*.npz
+*.npy
+*.log
+*.sqlite3
+
+# Profiling artifacts
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+*.nvvp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp

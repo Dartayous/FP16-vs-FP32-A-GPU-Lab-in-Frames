@@ -1,0 +1,15 @@
+torch>=2.0
+torchvision>=0.15
+cupy-cuda12x>=12.0  # Match your CUDA version (e.g., cupy-cuda11x or cupy-cuda12x)
+nvtx>=0.2
+matplotlib>=3.7     # Optional, if you visualize anything
+
+🧠 Notes:
+Use cupy-cuda12x or cupy-cuda11x depending on your installed CUDA toolkit.
+
+If you used GradScaler and autocast, those are part of torch.amp—no extra install needed.
+
+If you want to lock exact versions for reproducibility, you can freeze with:
+pip freeze > requirements.txt
+
+
